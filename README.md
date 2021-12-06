@@ -20,6 +20,13 @@ Status
 <br>
 
 ## :dart: About
+I Present the project, the data, the methods you used, the main
+development steps.
+II Show and comment your results
+III Include one part describing what you think are good
+programming practices
+IV In appendix, provide the logs of your git repository and your
+code.
 
 Visualization of datasets
 
