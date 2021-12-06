@@ -41,3 +41,9 @@ The following skills/tasks were aimed by this project:
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), and [VsCode](https://code.visualstudio.com/) installed.
 
 ## :checkered_flag: Starting
+
+```bash
+# Clone this project
+$ git clone https://github.com/https://github.com/BL-30/Development-project-in-Machine-Learning
+
+```
