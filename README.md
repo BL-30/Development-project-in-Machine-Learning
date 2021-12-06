@@ -83,7 +83,6 @@ single .py file.
 - Each student of the group should write at least one function.
 Indicate the writer of each function in comment
 
-Visualization of datasets
 
 ## :white_check_mark: Requirements
 
