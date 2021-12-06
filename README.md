@@ -19,14 +19,37 @@ Status
 
 <br>
 
+## :rocket: Objectives
+
+The following skills/tasks were aimed by this project:
+
+-  Develop good programming practices
+-  Use standard development tools
+-  Get used to collaborative work
+-  Work on Machine-Leaning datasets
+
+- Write the Python functions implementing the workflow in one single .py file.
+- Apply the workflow onto the two datasets, using either a Python script or a notebook.
+- Important: Your .py file containing the functions must be the same when applied to one or the other dataset
+
 ## :dart: About
-I Present the project, the data, the methods you used, the main
-development steps.
-II Show and comment your results
-III Include one part describing what you think are good
-programming practices
-IV In appendix, provide the logs of your git repository and your
-code.
+I Present the project:
+Our Project in machine learning aim to apply a Machine Learning model onto two different datasets :
+- Binary Classification
+Banknote Authentication Dataset: https://archive.ics.uci.edu/ml/datasets/banknote+authentication
+- Chronic Kidney Disease: https://www.kaggle.com/mansoordaku/ckdisease
+
+the data:
+
+the methods you used:
+
+the main development steps: 
+
+II Show and comment your results:
+
+III Include one part describing what you think are good programming practices
+
+IV In appendix, provide the logs of your git repository and your code.
 
 In this project we aim to collaboratively implement this workflow and apply it to different ML problems/datasets
 
@@ -61,19 +84,6 @@ single .py file.
 Indicate the writer of each function in comment
 
 Visualization of datasets
-
-## :rocket: Objectives
-
-The following skills/tasks were aimed by this project:
-
--  Develop good programming practices
--  Use standard development tools
--  Get used to collaborative work
--  Work on Machine-Leaning datasets
-
-- Write the Python functions implementing the workflow in one single .py file.
-- Apply the workflow onto the two datasets, using either a Python script or a notebook.
-- Important: Your .py file containing the functions must be the same when applied to one or the other dataset
 
 ## :white_check_mark: Requirements
 
