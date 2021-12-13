@@ -113,7 +113,7 @@ single .py file.
 - Each student of the group wrote at least one function.
 - We indicate the writer of each function in comment
 - We also created a git repository for our group: https://redmine-df.telecom-bretagne.eu/
-
+- Log of our Github Repository : https://github.com/BL-30/Development-project-in-Machine-Learning
 
 
 ## :white_check_mark: Requirements
