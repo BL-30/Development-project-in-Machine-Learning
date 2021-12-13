@@ -47,7 +47,7 @@ Data were extracted from images that were taken from genuine and forged banknote
 5. class (integer)
 
 Chronic KIdney Disease dataset
-Data has 25 feattures which may predict a patient with chronic kidney disease
+Data has 25 features which may predict a patient with chronic kidney disease
 
 The data was taken over a 2-month period in India with 25 features ( eg, red blood cell count, white blood cell count, etc). The target is the 'classification', which is either 'ckd' or 'notckd' - ckd=chronic kidney disease. There are 400 rows
 
@@ -57,11 +57,19 @@ the methods we used:
 We used different methods, including some functions already implemented in the Sk Learn library. We code 
 
 the main development steps:
-We implement the code collaborately on git hub, and we were used to meet very often to work on this project
+We implement the code collaborately on git hub, and we were used to meet very often to work on this project. We used different branches based on our names_dev. 
+After that, we merged the different branches together.
 
 II Show and comment your results:
 
+------------------ RESULTS HERE ------------------
+
 III Include one part describing what you think are good programming practices
+
+We think that the best way to have an effective code is to split our code into multiple functions.
+- ADHERE TO YOUR STYLE GUIDE
+- Simplification of Code:
+We were assigned a complex problem, the first idea we had resulted in a complicated solution with an overall lengthy and clumsy code block. Although that is not a totally negative aspect because we figured out one of the approaches to solve the problem, we realize that it is not enough.We dwelled deep and explore more unique methods to obtain the solutions.
 
 IV In appendix, provide the logs of your git repository and your code.
 
