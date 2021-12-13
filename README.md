@@ -39,6 +39,7 @@ Our Project in machine learning aim to apply a Machine Learning model onto two d
 Banknote Authentication Dataset: https://archive.ics.uci.edu/ml/datasets/banknote+authentication
 - Chronic Kidney Disease: https://www.kaggle.com/mansoordaku/ckdisease
 
+
 ## DATA 📊
 Data were extracted from images that were taken from genuine and forged banknote-like specimens. For digitization, an industrial camera usually used for print inspection was used. The final images have 400x 400 pixels. Due to the object lens and distance to the investigated object gray-scale pictures with a resolution of about 660 dpi were gained. Wavelet Transform tool were used to extract features from images.
 1. variance of Wavelet Transformed image (continuous)
@@ -92,6 +93,7 @@ Split the training set for cross-validation
 4. Train the model (including feature selection)
 5. Validate the model
 
+## Plan / Rules
 We first clean the dataset (handle missing values and
 categorical values)
 Then, we implement feature selection: bruteforce, by looking
@@ -104,13 +106,14 @@ We also used cross-validation to adjust the method
 (choice of the kernel, feature selection, etc.)
 We try to automate your process as much as possible
 
-We also created a git repository for our group: https://redmine-df.telecom-bretagne.eu/
 - We first commit our code in multiple .py, and then merged them in order to write the Python functions implementing the workflow in one
 single .py file.
 - We applied the workflow onto the two datasets, using either a Python script or a notebook.
 - Important: Our .py file containing the functions is the same when applied to one or the other dataset
 - Each student of the group wrote at least one function.
-We indicate the writer of each function in comment
+- We indicate the writer of each function in comment
+- We also created a git repository for our group: https://redmine-df.telecom-bretagne.eu/
+
 
 
 ## :white_check_mark: Requirements
