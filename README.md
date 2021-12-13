@@ -39,11 +39,25 @@ Our Project in machine learning aim to apply a Machine Learning model onto two d
 Banknote Authentication Dataset: https://archive.ics.uci.edu/ml/datasets/banknote+authentication
 - Chronic Kidney Disease: https://www.kaggle.com/mansoordaku/ckdisease
 
-the data:
+Data were extracted from images that were taken from genuine and forged banknote-like specimens. For digitization, an industrial camera usually used for print inspection was used. The final images have 400x 400 pixels. Due to the object lens and distance to the investigated object gray-scale pictures with a resolution of about 660 dpi were gained. Wavelet Transform tool were used to extract features from images.
+1. variance of Wavelet Transformed image (continuous)
+2. skewness of Wavelet Transformed image (continuous)
+3. curtosis of Wavelet Transformed image (continuous)
+4. entropy of image (continuous)
+5. class (integer)
 
-the methods you used:
+Chronic KIdney Disease dataset
+Data has 25 feattures which may predict a patient with chronic kidney disease
 
-the main development steps: 
+The data was taken over a 2-month period in India with 25 features ( eg, red blood cell count, white blood cell count, etc). The target is the 'classification', which is either 'ckd' or 'notckd' - ckd=chronic kidney disease. There are 400 rows
+
+The data needs cleaning: in that it has NaNs and the numeric features need to be forced to floats. Basically, we were instructed to get rid of ALL ROWS with Nans, with no threshold - meaning, any row that has even one NaN, gets deleted.
+
+the methods we used:
+We used different methods, including some functions already implemented in the Sk Learn library. We code 
+
+the main development steps:
+We implement the code collaborately on git hub, and we were used to meet very often to work on this project
 
 II Show and comment your results:
 
