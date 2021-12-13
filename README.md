@@ -76,6 +76,8 @@ We were assigned a complex problem, the first idea we had resulted in a complica
 - Planification of our Approach:
 Before we dive straight into the problem, we planned our approach accordingly. It is not always the best idea for us to jump into coding for a complex problem. We thought it will be a better proposition to effectively plan our course of action and dwelled on the specifics.
 
+- Indentation
+Formatting and indentation are necessary to organize our code. Ideal coding formatting and indentation include correct spacing, line length, wraps and breaks. By employing indentations, white-spacing, and tabs within the code, we ensure our code is readable and organized.
 IV In appendix, provide the logs of your git repository and your code.
 
 In this project we aim to collaboratively implement this workflow and apply it to different ML problems/datasets
