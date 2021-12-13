@@ -68,9 +68,12 @@ II Show and comment your results:
 III Include one part describing what you think are good programming practices
 
 We think that the best way to have an effective code is to split our code into multiple functions.
-- ADHERE TO YOUR STYLE GUIDE
+
 - Simplification of Code:
 We were assigned a complex problem, the first idea we had resulted in a complicated solution with an overall lengthy and clumsy code block. Although that is not a totally negative aspect because we figured out one of the approaches to solve the problem, we realize that it is not enough.We dwelled deep and explore more unique methods to obtain the solutions.
+
+- Planification of our Approach:
+Before we dive straight into the problem, we planned our approach accordingly. It is not always the best idea for us to jump into coding for a complex problem. We thought it will be a better proposition to effectively plan our course of action and dwelled on the specifics.
 
 IV In appendix, provide the logs of your git repository and your code.
 
