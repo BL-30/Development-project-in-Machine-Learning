@@ -53,10 +53,11 @@ The data was taken over a 2-month period in India with 25 features ( eg, red blo
 
 The data needs cleaning: in that it has NaNs and the numeric features need to be forced to floats. Basically, we were instructed to get rid of ALL ROWS with Nans, with no threshold - meaning, any row that has even one NaN, gets deleted.
 
+I To complete
 the methods we used:
 We used different methods, including some functions already implemented in the Sk Learn library. We code 
 
-the main development steps:
+I BIS the main development steps:
 We implement the code collaborately on git hub, and we were used to meet very often to work on this project. We used different branches based on our names_dev. 
 After that, we merged the different branches together.
 
