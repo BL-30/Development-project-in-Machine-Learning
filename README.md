@@ -55,8 +55,6 @@ The data was taken over a 2-month period in India with 25 features ( eg, red blo
 
 The data needs cleaning: in that it has NaNs and the numeric features need to be forced to floats. Basically, we were instructed to get rid of ALL ROWS with Nans, with no threshold - meaning, any row that has even one NaN, gets deleted.
 
-I To complete
-
 The methods we used:
 
 Methods
