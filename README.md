@@ -67,7 +67,7 @@ Advantages : easy to implement
 Drawbacks : can’t deal with non convex problems
 
 Bayesian GMM
-It is a statistical classifier involving Bayes Theorem on conditional probabilities. It lays on the following formula:
+It is a statistical classifier involving Bayes Theorem on conditional probabilities. 
 
 Therefore, for a given sample of data, we can calculate the probability of the sample to be part of a class Ck.
 
@@ -137,15 +137,17 @@ On this barchart we can observe that some methods like clustering or kernel sigm
 ![image](https://user-images.githubusercontent.com/91438136/146052486-94aad0f7-cf12-4521-a30a-2f06158c859a.png)
 On this barchart we can observe that some methods like clustering or kernel sigmoid are not quite appropriate to run a good precision score concerning the first dataset
 ![image](https://user-images.githubusercontent.com/91438136/146052541-fed75a66-ca42-4496-8008-f4db54173b94.png)
-On this barchart we can observe that some methods like clustering or kernel sigmoid are not quite appropriate to run a good precision score concerning the first dataset
+On this barchart we can observe that some methods like clustering or kernel sigmoid are not quite appropriate to run a good recall score concerning the first dataset
 ![image](https://user-images.githubusercontent.com/91438136/146052575-7b77494c-d88a-436b-8cb2-e55d5ed1c78f.png)
-
+On this barchart we can observe that some methods like clustering or kernel sigmoid are not quite appropriate to run a good fscore score concerning the first dataset
 ![image](https://user-images.githubusercontent.com/91438136/146052631-4a6a5d71-2550-4030-b888-01cf1203c0a2.png)
 
-![image](https://user-images.githubusercontent.com/91438136/146052688-581a497e-ad4e-4ae4-9456-7751eb868942.png)
+Finally 5 methods makes very-well estimation for this dataset : kernel_linear, kernel_polynomial, kernel_gaussian, neural_networks and random_forests.
+
 
 
 ## Here are our results concerning the second dataset named :  kidney disease 📈
+
 
 ![image](https://user-images.githubusercontent.com/91438136/146053531-075b0fe7-a41e-4225-ba32-32b131b10846.png)
 
@@ -157,8 +159,10 @@ On this barchart we can observe that some methods like clustering or kernel sigm
 
 ![image](https://user-images.githubusercontent.com/91438136/146053720-9610ef80-b40b-4d2b-8673-88f0601bb41e.png)
 
-![image](https://user-images.githubusercontent.com/91438136/146053762-76f6c111-10ed-4bc1-92ed-7e5d518cfd92.png)
 
+On those barcharts, as well as the precedent dataset, sigmoid and clustering are not appropriated.
+We notice also that neural networks is less perfomant for this dataset
+Finally 4 methods makes very-well estimation for this dataset : kernel_linear, kernel_polynomial, kernel_gaussian, random_forests.
 
 ## What we think are good programming practices
 
