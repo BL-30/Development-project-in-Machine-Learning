@@ -56,8 +56,37 @@ The data was taken over a 2-month period in India with 25 features ( eg, red blo
 The data needs cleaning: in that it has NaNs and the numeric features need to be forced to floats. Basically, we were instructed to get rid of ALL ROWS with Nans, with no threshold - meaning, any row that has even one NaN, gets deleted.
 
 I To complete
-the methods we used:
-We used different methods, including some functions already implemented in the Sk Learn library. We code 
+
+The methods we used:
+
+Methods
+K-means
+Hard clustering classification method which aims to partition the data into clusters. It affects each sample to the class which has the closest centroid.
+
+Advantages : easy to implement
+Drawbacks : can’t deal with non convex problems
+
+Bayesian GMM
+It is a statistical classifier involving Bayes Theorem on conditional probabilities. It lays on the following formula:
+
+Therefore, for a given sample of data, we can calculate the probability of the sample to be part of a class Ck.
+
+
+Kernel methods and SVM
+Kernels are a class of algorithms which maps data into high dimensional feature space to classify it more easily. The kernel trick is then to find solutions to compute efficiently the higher-order model.
+
+Advantages : keep the advantages of simple models while attaining the advantages of more complex models to reduce bias and variance.
+Drawbacks : needs to find the good kernel and its associated parameters.
+
+Neural networks
+Composition of several functions in neurons and layers which quickly leads to very complex functions. Therefore, input as output vectors are fully connected with all the layers of the network. 
+
+Advantages : presents the best performances and derivatives can be computed easily.
+
+Random forests
+Ensemble learning method which constructs several decision trees for training.The output is then given by the class selected by most trees.
+
+Advantages : easily understandable.
 
 I BIS the main development steps:
 We implement the code collaborately on git hub, and we were used to meet very often to work on this project. We used different branches based on our names_dev. 
