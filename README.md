@@ -130,7 +130,7 @@ Histograms appear as a lisible way to represent scores and compare them.
 
 II Show and comment your results:
 ## Here are our results concerning the first dataset named :  data_banknote 📈
-![image](https://user-images.githubusercontent.com/91438136/146052237-4fe619e6-e154-483e-86f0-1ef3b417d5e9.png )
+![image](https://user-images.githubusercontent.com/91438136/146052237-4fe619e6-e154-483e-86f0-1ef3b417d5e9.png)
 
 ![image](https://user-images.githubusercontent.com/91438136/146052486-94aad0f7-cf12-4521-a30a-2f06158c859a.png)
 
