@@ -140,9 +140,11 @@ On this barchart we can observe that some methods like clustering or kernel sigm
 ![image](https://user-images.githubusercontent.com/91438136/146089808-c5bf1d5b-ca79-4e72-8308-96ce0e1a14ac.png)
 
 On this barchart we can observe that some methods like clustering or kernel sigmoid are not quite appropriate to run a good recall score concerning the first dataset
-![image](https://user-images.githubusercontent.com/91438136/146052575-7b77494c-d88a-436b-8cb2-e55d5ed1c78f.png)
+![image](https://user-images.githubusercontent.com/91438136/146090001-f3360e33-8952-4ed4-86fa-1164f896ee61.png)
+
 On this barchart we can observe that some methods like clustering or kernel sigmoid are not quite appropriate to run a good fscore score concerning the first dataset
-![image](https://user-images.githubusercontent.com/91438136/146052631-4a6a5d71-2550-4030-b888-01cf1203c0a2.png)
+![image](https://user-images.githubusercontent.com/91438136/146090086-300c2b9d-e753-4c08-b8ac-bfaafc151b03.png)
+
 
 Finally 5 methods makes very-well estimation for this dataset : kernel_linear, kernel_polynomial, kernel_gaussian, neural_networks and random_forests.
 
