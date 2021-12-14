@@ -134,7 +134,8 @@ On this graph we can observe that the greater the depth is, the better is our ac
 ![image](https://user-images.githubusercontent.com/91438136/146052237-4fe619e6-e154-483e-86f0-1ef3b417d5e9.png)
 
 On this barchart we can observe that some methods like clustering or kernel sigmoid are not quite appropriate to run a good accuracy score concerning the first dataset
-![image](https://user-images.githubusercontent.com/91438136/146089691-06cdfeda-2745-48c4-8783-b3a039b3136e.png)
+![image](https://user-images.githubusercontent.com/91438136/146089919-3bb77a4c-2805-4df8-bb58-144b10732e8c.png)
+
 On this barchart we can observe that some methods like clustering or kernel sigmoid are not quite appropriate to run a good precision score concerning the first dataset
 ![image](https://user-images.githubusercontent.com/91438136/146089808-c5bf1d5b-ca79-4e72-8308-96ce0e1a14ac.png)
 
