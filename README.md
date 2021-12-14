@@ -64,6 +64,8 @@ We implement the code collaborately on git hub, and we were used to meet very of
 After that, we merged the different branches together.
 
 II Show and comment your results:
+Here are our results concerning the first dataset named :  data_banknote_authentication.txt 
+![image](https://user-images.githubusercontent.com/91438136/146036412-c11034f0-c75f-4af8-911e-ab083f120633.png)
 
 ------------------ RESULTS HERE ------------------
 
