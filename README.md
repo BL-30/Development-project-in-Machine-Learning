@@ -1,7 +1,7 @@
 Status
 
 <h1 align="center">Development project in Machine Learning</h1>
-
+<h2 align="center">Cyprien Le Rouge de Guerdavid, Gabriel Gros, Laurine Marty, Baptiste Loyer</h2>
 Status
 
 <h4 align="center">
