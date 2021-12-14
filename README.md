@@ -1,7 +1,7 @@
 Status
 
 <h1 align="center">Development project in Machine Learning</h1>
-<h3 >Nom des auteurs:Cyprien Le Rouge de Guerdavid, Gabriel Gros, Laurine Marty, Baptiste Loyer</h2>
+<h3 >Nom des auteurs:Gabriel Gros,Cyprien Le Rouge de Guerdavid, Baptiste Loyer Laurine Marty</h2>
 </h3>
 
 <h4 align="center">
