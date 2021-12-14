@@ -103,7 +103,7 @@ But, in order to adapt our process to all types of data set (with only quantitat
  
 This library is under the MIT license but can be used as our type of project as an open-source algorithm.
 
- 
+![image](https://user-images.githubusercontent.com/91438136/146048612-bf4a69d8-90ee-4b32-b514-31a41f5a7c51.png) ![image](https://user-images.githubusercontent.com/91438136/146048723-bf019332-eb9d-4492-b1bb-0c9302da828a.png)
 
 Preparation of the data 
 
