@@ -228,6 +228,8 @@ $ git clone https://github.com/https://github.com/BL-30/Development-project-in-M
 
 # Functions code : 
 
+## Imports
+
 	import pandas as pd
 	import numpy as np
 	import matplotlib.pyplot as plt
@@ -262,7 +264,7 @@ $ git clone https://github.com/https://github.com/BL-30/Development-project-in-M
 	from sklearn.kernel_approximation import RBFSampler
 	from sklearn.linear_model import SGDClassifier
 
-## Made by Gabriel
+## Choosing Data : (Made by Gabriel)
 
 	def choose_data(b):
 	    if b:
@@ -271,7 +273,7 @@ $ git clone https://github.com/https://github.com/BL-30/Development-project-in-M
 		data =  pd.read_csv('kidney_disease.csv')
 	    return data
 
-## Made by Cyprien
+## Clean Data : (Made by Cyprien)
 
 	def new_clean(df):
 	    # select numerical columns
@@ -300,7 +302,7 @@ $ git clone https://github.com/https://github.com/BL-30/Development-project-in-M
 
 	    return df
 
-## Made by Laurine
+## Optimal depth for Random Forest : (Made by Laurine)
 	def optimal_max_depth(data):
 	    X = data.iloc[:,0:data.shape[1]-1]
 	    y = data.iloc[:,data.shape[1]-1]
@@ -317,7 +319,7 @@ $ git clone https://github.com/https://github.com/BL-30/Development-project-in-M
 	    plt.title("Evolution of accuracy according to the maximal depth of the Random Forest generated")
 	    return score.index (max (score))+1
 
-## Made by Laurine, Baptiste, Gabriel, and Cyprien
+## Machine Learning Method Application : (Made by Laurine, Baptiste, Gabriel, and Cyprien)
 	def ML_method(method, data, n, type_data):
 	    X = data.iloc[:,0:data.shape[1]-1]
 	    y = data.iloc[:,data.shape[1]-1]
@@ -377,11 +379,12 @@ $ git clone https://github.com/https://github.com/BL-30/Development-project-in-M
 
 # Results and Plots :
 
+## Calculations
 	from Mini_Projet_Fonctions.py import ML_method
 
 	methods = ['clustering', 'bayesian', 'kernel_linear', 'kernel_poly', 'kernel_gaussian', 'kernel_sigmoid','neural_network', 'random_forest']
 
-	type_data = 'bank'
+	type_data = 'bank' 
 	data_bank = choose_data(True)
 	n=30
 
@@ -395,28 +398,28 @@ $ git clone https://github.com/https://github.com/BL-30/Development-project-in-M
 	    fscore[method] = fs
 	    support[method] = supp
 
-
+## Plot Accuracy
 	plt.figure(figsize=(15,8))
 	plt.bar(list(accuracy.keys()), accuracy.values())
 	plt.title('Accuracy of different ML methods')
 	plt.ylabel('Accuracy score')
 	plt.show()
 
-
+## Plot Precision
 	plt.figure(figsize=(15,8))
 	plt.bar(list(precision.keys()), precision.values())
 	plt.title('Precision of different ML methods')
 	plt.ylabel('Precision score')
 	plt.show()
 
-
+## Plot Recall
 	plt.figure(figsize=(15,8))
 	plt.bar(list(recall.keys()), recall.values())
 	plt.title('Recall of different ML methods')
 	plt.ylabel('Recall score')
 	plt.show()
 
-
+## Plot FScore
 	plt.figure(figsize=(15,8))
 	plt.bar(list(fscore.keys()), fscore.values())
 	plt.title('FScore of different ML methods')
