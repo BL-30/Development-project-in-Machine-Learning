@@ -67,6 +67,9 @@ II Show and comment your results:
 Here are our results concerning the first dataset named :  data_banknote_authentication.txt 
 ![image](https://user-images.githubusercontent.com/91438136/146036412-c11034f0-c75f-4af8-911e-ab083f120633.png)
 
+![image](https://user-images.githubusercontent.com/91438136/146040885-a40d6ebb-ee2e-424a-ab74-b7b6e5ff87b8.png)
+
+
 ------------------ RESULTS HERE ------------------
 
 III Include one part describing what you think are good programming practices
