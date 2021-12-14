@@ -157,11 +157,10 @@ Finally 5 methods makes very-well estimation for this dataset : kernel_linear, k
 
 ![image](https://user-images.githubusercontent.com/91438136/146053594-8042b826-861e-45f9-86df-0746e9ed0557.png)
 
-![image](https://user-images.githubusercontent.com/91438136/146053645-c1a9229e-c3c5-4081-9395-078f68507a5c.png)
+![image](https://user-images.githubusercontent.com/91438136/146090473-f9158a15-c167-4d54-baf5-3fe97821bb6b.png)
 
-![image](https://user-images.githubusercontent.com/91438136/146053683-808855cb-12c1-4539-92ce-045fbdaf3189.png)
-
-![image](https://user-images.githubusercontent.com/91438136/146053720-9610ef80-b40b-4d2b-8673-88f0601bb41e.png)
+![image](https://user-images.githubusercontent.com/91438136/146090529-c3c662ca-adcd-49d6-87f7-67ecdc4307fe.png)
+![image](https://user-images.githubusercontent.com/91438136/146090602-b5ef15f7-93fa-4f8a-aa88-5f9ee80b2cb3.png)
 
 
 On those barcharts, as well as the precedent dataset, sigmoid and clustering are not appropriated.
