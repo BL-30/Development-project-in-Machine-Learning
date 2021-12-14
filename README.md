@@ -144,7 +144,18 @@ II Show and comment your results:
 
 
 ## Here are our results concerning the second dataset named :  kidney disease 📈
-![image](https://user-images.githubusercontent.com/91438136/146051660-5757c8a2-83bc-471f-a5eb-cd1325c6a09a.png)
+
+![image](https://user-images.githubusercontent.com/91438136/146053531-075b0fe7-a41e-4225-ba32-32b131b10846.png)
+
+![image](https://user-images.githubusercontent.com/91438136/146053594-8042b826-861e-45f9-86df-0746e9ed0557.png)
+
+![image](https://user-images.githubusercontent.com/91438136/146053645-c1a9229e-c3c5-4081-9395-078f68507a5c.png)
+
+![image](https://user-images.githubusercontent.com/91438136/146053683-808855cb-12c1-4539-92ce-045fbdaf3189.png)
+
+![image](https://user-images.githubusercontent.com/91438136/146053720-9610ef80-b40b-4d2b-8673-88f0601bb41e.png)
+
+![image](https://user-images.githubusercontent.com/91438136/146053762-76f6c111-10ed-4bc1-92ed-7e5d518cfd92.png)
 
 
 ------------------ RESULTS HERE ------------------
