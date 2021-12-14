@@ -1,7 +1,7 @@
 Status
 
 <h1 align="center">Development project in Machine Learning</h1>
-<h3 >Nom des auteurs:Gabriel Gros,Cyprien Le Rouge de Guerdavid, Baptiste Loyer Laurine Marty</h2>
+<h3 >Nom des étudiants : Cyprien Le Rouge de Guerdavid, Gabriel Gros, Laurine Marty, Baptiste Loyer</h2>
 </h3>
 
 <h4 align="center">
@@ -160,9 +160,7 @@ On this barchart we can observe that some methods like clustering or kernel sigm
 ![image](https://user-images.githubusercontent.com/91438136/146053762-76f6c111-10ed-4bc1-92ed-7e5d518cfd92.png)
 
 
------------------- RESULTS HERE ------------------
-
-III Include one part describing what you think are good programming practices
+## What we think are good programming practices
 
 We think that the best way to have an effective code is to split our code into multiple functions.
 
