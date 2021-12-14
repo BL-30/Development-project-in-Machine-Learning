@@ -89,11 +89,48 @@ Ensemble learning method which constructs several decision trees for training.Th
 Advantages : easily understandable.
 
 I BIS the main development steps:
-We implement the code collaborately on git hub, and we were used to meet very often to work on this project. We used different branches based on our names_dev. 
-After that, we merged the different branches together.
+Visualization of the data
+
+In classification problems the visualization could be a good first introduction to the dataset. It can be used to see whether certain clusters are particularly detached or not. Moreover it is a way for the data-scientist to use his intuition over certain parameters of the data processing or to develop an heuristic approach to the problem.  
+
+However, most of the time the number of features of the datasets unable to visualize it directly. Therefore, it is necessary to go through a dimension reduction phase before making a display.
+One of the most common techniques for dimension reduction is the Principal Component Analysis (PCA).
+PCA is affected by scale so we need to scale the features in our data before applying PCA.
+By analyzing the second data set : “kidney disease”, where data has 25 features and which may predict a patient with chronic disease, we notice that there could have two category of features : the quantitative (basically a numeric value) or a categorical data (which can be represented by a string, a number or a Boolean). This duality in the data type is an obstacle to the application of PCA. Indeed, the mathematical formalism of the scikit-learn method we previously intend to use, is adapted only for the first type of values.
+Similarly, there exists another method  called “Multiple Correspondence Analysis” which has exactly the same goal but which is only applicable to categorical data.
+But, in order to adapt our process to all types of data set (with only quantitative data, only categorical data or even a mix of the two types) we have to find a new type of algorithm.
+“Prince” is a Python library which has a module FAMD for “Factor Analysis for Mixed Data'' which aims to apply the principle of PCA and MCA to a data set composed of the two types of data.
+ 
+This library is under the MIT license but can be used as our type of project as an open-source algorithm.
+
+ 
+
+Preparation of the data 
+
+First of all, in order to apply methods properly we have to clean the dataset. Indeed, some datasets are partially filled and some value remains associated with ‘Nan’. 
+We separated the cleaning process in two parts : first we treat the numeric data by replacing the missing values by the median of the column. Then for the non numeric data we replace the missing values by the most frequently occuring value. 
+
+Second, we have to transform data so that models will be able to treat them. For every model numeric values are the most common way to represent data. Thus we use a label encoder to associate each category to a number in the categorical data columns. 
+
+Then, in order to avoid bias we decided to normalize our data set. We transform data to obtain the unit norm for each column. 
+
+Finally, for the Neural Network only, we apply a features selection function. Neural Networks are the models that require the biggest ressources to be implemented. By reducing the number of features we also reduce the working time. Moreover, neural networks are not easily interpretable, so feature selection does not impact on this aspect in contrast to what it could have done on random forests, which have the main advantage of being easily readable with the input features. 
+We apply the Variance Threshold algorithm : it removes all low-variance features.
+
+Training models and cross validation 
+
+In order to facilitate the comparison of the model we implement each training process, followed by a testing phase in separated functions which take in argument the name of the dataset and the number of times we want to repeat the process to have an optimal statistical view on the method performance. 
+Each time we separate the dataset treated randomly in two parts : a training set and a testing set, we train the model with the training set. Then we apply the model to the testing set and we return the information about performances : the accuracy of the model and for each class : the precision and the recall ratios. 
+By repeating the training/testing process a large number of times on randomly chosen parts of the dataset we are able to make the mean of the obtained results to have an information representative of the performance.  
+  
+Compare results 
+
+By returning the same ratios for each method we can easily compare the performances of them on each dataset. Performances can, indeed, be different according to the type of data : in the case where there is only numeric data (Bank dataset) or if the dataset is a mix of both quantitative and categorical data (Kidney disease dataset). 
+Histograms appear as a lisible way to represent scores and compare them.  
 
 II Show and comment your results:
 Here are our results concerning the first dataset named :  data_banknote_authentication.txt 
+
 ![image](https://user-images.githubusercontent.com/91438136/146036412-c11034f0-c75f-4af8-911e-ab083f120633.png)
 
 ![image](https://user-images.githubusercontent.com/91438136/146040885-a40d6ebb-ee2e-424a-ab74-b7b6e5ff87b8.png)
