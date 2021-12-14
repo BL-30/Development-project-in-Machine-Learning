@@ -130,12 +130,14 @@ Histograms appear as a lisible way to represent scores and compare them.
 
 II Show and comment your results:
 ## Here are our results concerning the first dataset named :  data_banknote 📈
+On this graph we can observe that the greater the depth is, the better is our accuracy concerning the first dataset
 ![image](https://user-images.githubusercontent.com/91438136/146052237-4fe619e6-e154-483e-86f0-1ef3b417d5e9.png)
 
+On this barchart we can observe that some methods like clustering or kernel sigmoid are not quite appropriate to run a good accuracy score concerning the first dataset
 ![image](https://user-images.githubusercontent.com/91438136/146052486-94aad0f7-cf12-4521-a30a-2f06158c859a.png)
-
+On this barchart we can observe that some methods like clustering or kernel sigmoid are not quite appropriate to run a good precision score concerning the first dataset
 ![image](https://user-images.githubusercontent.com/91438136/146052541-fed75a66-ca42-4496-8008-f4db54173b94.png)
-
+On this barchart we can observe that some methods like clustering or kernel sigmoid are not quite appropriate to run a good precision score concerning the first dataset
 ![image](https://user-images.githubusercontent.com/91438136/146052575-7b77494c-d88a-436b-8cb2-e55d5ed1c78f.png)
 
 ![image](https://user-images.githubusercontent.com/91438136/146052631-4a6a5d71-2550-4030-b888-01cf1203c0a2.png)
