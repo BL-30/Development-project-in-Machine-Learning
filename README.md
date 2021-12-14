@@ -134,9 +134,10 @@ On this graph we can observe that the greater the depth is, the better is our ac
 ![image](https://user-images.githubusercontent.com/91438136/146052237-4fe619e6-e154-483e-86f0-1ef3b417d5e9.png)
 
 On this barchart we can observe that some methods like clustering or kernel sigmoid are not quite appropriate to run a good accuracy score concerning the first dataset
-![image](https://user-images.githubusercontent.com/91438136/146052486-94aad0f7-cf12-4521-a30a-2f06158c859a.png)
+![image](https://user-images.githubusercontent.com/91438136/146089691-06cdfeda-2745-48c4-8783-b3a039b3136e.png)
 On this barchart we can observe that some methods like clustering or kernel sigmoid are not quite appropriate to run a good precision score concerning the first dataset
-![image](https://user-images.githubusercontent.com/91438136/146052541-fed75a66-ca42-4496-8008-f4db54173b94.png)
+![image](https://user-images.githubusercontent.com/91438136/146089808-c5bf1d5b-ca79-4e72-8308-96ce0e1a14ac.png)
+
 On this barchart we can observe that some methods like clustering or kernel sigmoid are not quite appropriate to run a good recall score concerning the first dataset
 ![image](https://user-images.githubusercontent.com/91438136/146052575-7b77494c-d88a-436b-8cb2-e55d5ed1c78f.png)
 On this barchart we can observe that some methods like clustering or kernel sigmoid are not quite appropriate to run a good fscore score concerning the first dataset
