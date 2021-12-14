@@ -5,7 +5,7 @@ Status
 </h3>
 
 <h4 align="center">
-	🚧 Development project in Machine Learning 🚀 Under construction...  🚧
+	🚧 Development project in Machine Learning 🚀   🚧
 </h4>
 
 <hr>
