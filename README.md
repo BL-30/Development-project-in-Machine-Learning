@@ -1,8 +1,8 @@
 Status
 
 <h1 align="center">Development project in Machine Learning</h1>
-<h2 align="center">Nom des étudiants : Cyprien Le Rouge de Guerdavid, Gabriel Gros, Laurine Marty, Baptiste Loyer</h2>
-Status
+<h3 >Nom des étudiants : Cyprien Le Rouge de Guerdavid, Gabriel Gros, Laurine Marty, Baptiste Loyer</h2>
+</h3>
 
 <h4 align="center">
 	🚧 Development project in Machine Learning 🚀 Under construction...  🚧
