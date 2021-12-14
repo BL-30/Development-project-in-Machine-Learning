@@ -224,9 +224,9 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), a
 $ git clone https://github.com/https://github.com/BL-30/Development-project-in-Machine-Learning
 
 ```
-## Appendix : 
+# Appendix : 
 
-Functions code : 
+# Functions code : 
 
 import pandas as pd
 import numpy as np
@@ -262,7 +262,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.kernel_approximation import RBFSampler
 from sklearn.linear_model import SGDClassifier
 
-# Made by Gabriel
+## Made by Gabriel
 def choose_data(b):
     if b:
         data = pd.read_csv('data_banknote_authentication.txt')
@@ -270,7 +270,7 @@ def choose_data(b):
         data =  pd.read_csv('kidney_disease.csv')
     return data
 
-# Made by Cyprien
+## Made by Cyprien
 def new_clean(df):
     # select numerical columns
     df_numeric = df.select_dtypes(include=[np.number])
@@ -298,7 +298,7 @@ def new_clean(df):
         
     return df
 
-# Made by Laurine
+## Made by Laurine
 def optimal_max_depth(data):
     X = data.iloc[:,0:data.shape[1]-1]
     y = data.iloc[:,data.shape[1]-1]
@@ -315,7 +315,7 @@ def optimal_max_depth(data):
     plt.title("Evolution of accuracy according to the maximal depth of the Random Forest generated")
     return score.index (max (score))+1
 
-# Made by Laurine, Baptiste, Gabriel, and Cyprien
+## Made by Laurine, Baptiste, Gabriel, and Cyprien
 def ML_method(method, data, n, type_data):
     X = data.iloc[:,0:data.shape[1]-1]
     y = data.iloc[:,data.shape[1]-1]
