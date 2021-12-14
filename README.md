@@ -129,11 +129,22 @@ By returning the same ratios for each method we can easily compare the performan
 Histograms appear as a lisible way to represent scores and compare them.  
 
 II Show and comment your results:
-Here are our results concerning the first dataset named :  data_banknote_authentication.txt 
+## Here are our results concerning the first dataset named :  data_banknote 📈
+![image](https://user-images.githubusercontent.com/91438136/146052237-4fe619e6-e154-483e-86f0-1ef3b417d5e9.png )
 
-![image](https://user-images.githubusercontent.com/91438136/146036412-c11034f0-c75f-4af8-911e-ab083f120633.png)
+![image](https://user-images.githubusercontent.com/91438136/146052486-94aad0f7-cf12-4521-a30a-2f06158c859a.png)
 
-![image](https://user-images.githubusercontent.com/91438136/146040885-a40d6ebb-ee2e-424a-ab74-b7b6e5ff87b8.png)
+![image](https://user-images.githubusercontent.com/91438136/146052541-fed75a66-ca42-4496-8008-f4db54173b94.png)
+
+![image](https://user-images.githubusercontent.com/91438136/146052575-7b77494c-d88a-436b-8cb2-e55d5ed1c78f.png)
+
+![image](https://user-images.githubusercontent.com/91438136/146052631-4a6a5d71-2550-4030-b888-01cf1203c0a2.png)
+
+![image](https://user-images.githubusercontent.com/91438136/146052688-581a497e-ad4e-4ae4-9456-7751eb868942.png)
+
+
+## Here are our results concerning the second dataset named :  kidney disease 📈
+![image](https://user-images.githubusercontent.com/91438136/146051660-5757c8a2-83bc-471f-a5eb-cd1325c6a09a.png)
 
 
 ------------------ RESULTS HERE ------------------
